@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styl.css">
+    <title>Settings Modal</title>
+</head>
+<body>
+    <section class="card">
+        <div class="top_nav">
+            <i class='bx bx-x'></i>
+            <p id="close">Close</p>
+        </div>
+        <div class="settings">
+            <h2 id="settings">Settings</h2>
+            <h3 id="language">Language</h3>
+            <p>Let us know which language you're most comfortable using. You
+                can change it back at any time.</p>
+            <select name="lang" id="lang">
+                <option value="eng">English</option>
+                <option value="arab">Arabic</option>
+                <option value="swahili">Swahili</option>
+            </select>
+            <div class="video_pic">
+                <div class="video">
+                    <div class="disc">
+                        <h3 id="autoplay_videos">Autoplay videos</h3>
+                        <p id="autoplay_description">Choose if you want to autoplay on your browser</p>
+                    </div>
+                    <input type="checkbox" name="" id="">
+                </div>
+                <div class="video">
+                    <div class="disc">
+                        <h3 id="show_profile_photo">Show profile photo</h3>
+                        <p id="profile_photo_description">Choose whether to show or hide profile photos of other members.</p>
+                    </div>
+                    <input type="checkbox" name="" id="">
+                </div>
+                <div class="btns">
+                    <button class="btn" id="save">Save</button>
+                    <button class="btn" id="cancel">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

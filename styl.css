@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 98vh;
+    background-image: url(https://cdn.wallpapersafari.com/12/80/9UXgxb.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.card{
+    background: #6b6a6a4a;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: .5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    transition: all ease-in-out .2s;
+}
+
+
+.top_nav *{
+    margin: 0;
+}
+
+.top_nav{
+    align-self: flex-end;
+}
+
+h2, h3{
+    color: #8c3788;
+}
+
+p{
+    max-width: 55ch;
+}
+
+.video_pic {
+    margin: 2rem 0 0;
+    border-top: 2px solid;
+    padding: .5rem 0 0;
+}
+
+#lang{
+    font-size: 1.5rem;
+    width: 9rem;
+    padding: .5rem;
+    border: 2px solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+}
+
+.video{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+.video h3{
+    margin: .8rem 0 0;
+}
+
+.video p{
+    margin: 0 0 0;
+}
+
+.btns{
+    width: 100%;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.btn{
+    font-size: 1.6rem;
+    padding: .6rem 1rem;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+
+#save, #cancel:hover{
+    background: #f34b8d;
+    color: #fff;
+}
+
+#cance, #save:hover{
+    background: #fff;
+    color: #000000ba;
+}
+
+.unactive{
+    transform: scale(0);
+}
